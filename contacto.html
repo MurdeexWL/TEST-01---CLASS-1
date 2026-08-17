@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoSoluciones | Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="cabecera-pagina">
+  <div class="contenedor">
+    <img src="img/logo.svg" alt="Logo de EcoSoluciones" class="logo pequeño">
+    <p class="etiqueta">HABLEMOS</p>
+    <h1>Contacto</h1>
+    <p>Envíanos tu consulta.</p>
+  </div>
+</header>
+<nav aria-label="Navegación principal">
+  <div class="contenedor nav-contenido">
+    <a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a><a href="servicios.html">Servicios</a><a class="activo" href="contacto.html">Contacto</a>
+  </div>
+</nav>
+<main class="contenedor seccion">
+  <div class="contacto-grid">
+    <section class="panel">
+      <div class="titulo-seccion"><span>01</span><h2>Contáctanos</h2></div>
+      <form id="formularioContacto">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" required placeholder="tucorreo@ejemplo.com">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje"></textarea>
+        <button class="boton" type="submit">Enviar mensaje</button>
+        <p id="respuesta" class="respuesta" role="status"></p>
+      </form>
+    </section>
+    <aside class="panel info">
+      <h2>Información</h2>
+      <p><strong>Correo:</strong> contacto@ecosoluciones.test</p>
+      <p><strong>Horario:</strong> Lunes a viernes, 9:00–17:00</p>
+      <p><strong>Redes:</strong> Facebook · Instagram · LinkedIn</p>
+    </aside>
+  </div>
+</main>
+<footer><div class="contenedor footer-contenido"><p><strong>EcoSoluciones</strong> · Sitio académico HTML5 + CSS</p><p>© <span id="anio"></span></p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
